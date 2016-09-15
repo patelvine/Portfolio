@@ -1,0 +1,112 @@
+
+/* All and Initial*/
+@import '1-tools/tools-dir.css';
+@import '2-sections/sections-dir.css';
+
+html, textarea, input{color: #272727;}
+html {
+    -webkit-font-smoothing: antialiased; 
+	font-smoothing: antialiased; 
+	-moz-font-smoothing: antialiased;
+    height: 100%;
+    width: 100%;
+}
+body {
+    font-size: 1em; background-color:#272727; 
+	font-family: sans-serif; 
+	-webkit-font-smoothing: antialiased;
+	height: 100%;
+    width: 100%;
+    margin: 0;
+}
+fieldset {border: 0;margin: 0;padding: 0;}
+img {vertical-align: middle} 
+a {text-decoration: none; color: #272727; font-size: 2em;}
+
+.hideback{
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+}
+#container {
+    background-color: #F5F5F5; 
+    background-image: url(); 
+	background-position: center;
+    position: absolute;
+}
+/* /All and initial */
+
+/* Header */
+header {
+    position: absolute; 
+    height: 145px; 
+    width: 100%;
+}
+#header-display {
+    position: relative; 
+    margin: 40px; 
+    height: 65px;
+} 
+#vinesh-logo-display {
+    position: absolute; 
+    height: 65px; 
+	width: 65px; 
+    background-color: #000;
+}
+
+#nav-container{
+    position: relative; 
+    height: 50px; 
+    float: right; 
+    margin: 7.5px;
+    background-color: none;
+}
+
+#header-nav a {
+    display: inline-block; 
+    margin-left: 10px; 
+    font-size: 20px; 
+    letter-spacing: 4px; 
+    color: black;
+    font-family: "talldark"; 
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.navbar-default{
+    background-color: transparent;
+}
+/* /Header */
+
+/* Home */
+
+#sections {position: absolute; width: 100%; height: 100%;}
+/*.section {position: absolute; width: 100%; height: 100%;} caused error of mouse listener not workings*/
+#home-st {position: absolute;}
+/*#sections .section {position: absolute; width: 100%; height: 100%; visibility: hidden;}*/
+
+#a-about{ visibility: hidden; }
+#a-contact{ visibility: hidden; }
+
+footer{visibility: hidden;}
+
+.st-title{
+    text-align: center;
+}
+.st-desc{
+    text-align: center; 
+    margin-top: 2%;
+}
+.titleWord{
+    display: inline-block;
+    font-family: basic_sans_serif_7;
+    margin-right: 4%;
+}
+.titleDiv{
+    display: inline-block;
+}
+.descriptionDiv{
+    display: inline-block;
+    margin-left: 1%;
+    font-weight: bold;
+}

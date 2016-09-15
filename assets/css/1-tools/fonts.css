@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "talldark";
+	src: url("/assets/font/talldark.ttf");
+}
+
+@font-face {
+	font-family: "Ostrich_Sans_Inline-regular";
+	src: url("/assets/font/Ostrich_Sans_Inline-regular.otf");
+}
+
+@font-face {
+	font-family: "dream_orphans";
+	src: url("/assets/font/dream_orphans.ttf");
+}
+
+@font-face {
+	font-family: "basic_sans_serif_7";
+	src: url("/assets/font/basic_sans_serif_7.ttf");
+}
